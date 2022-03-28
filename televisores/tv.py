@@ -52,7 +52,7 @@ class TV:
     def getNumTV(cls):
         return cls.numTV
     @classmethod
-    def getNumTV(cls, num):
+    def setNumTV(cls, num):
         cls.numTV = num
     
     def turnOn(self):
